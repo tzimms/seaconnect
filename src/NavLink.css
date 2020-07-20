@@ -1,0 +1,53 @@
+  
+.nav-item,
+.navbar-text {
+  overflow: hidden;
+  padding: 0.5em 2em;
+  font-size: large;
+}
+.navbar{
+  background-color: black;
+  opacity: 0.8;
+}
+.navbar-links {
+  color: grey;
+}
+
+.navbar-links:hover {
+  color: grey;
+}
+
+.navbar-text {
+  font-weight: bold;
+  padding:10px;
+}
+
+.navbar-text:hover {
+  text-decoration: none;
+  cursor: default;
+}
+
+.active {
+  color: orange;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.small-logo {
+  font-size: x-small;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-item {
+    padding: 1.5em;
+    text-align: center;
+  }
+
+  .navbar-text {
+    padding: 0;
+  }
+
+  .nav-adjust {
+    height: 55px;
+  }
+}
